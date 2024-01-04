@@ -1,6 +1,11 @@
-English [中文](./readme.md)
-# gproxy
+
+<h1 align="center">gproxy</h1>
+
 A simple tool that controls whether to enable system agents with a single command. The preset is Clash's system agent, which may allow customization of which system agent to enable, as well as port control and custom agent presets.
+<p align="center">
+English | <a href="readme.md">中文</a>
+</p>
+
 # Usage
 
 ## 1. Setup
@@ -16,7 +21,7 @@ Compile the script
 ```
 shc -r -f gproxy.sh
 ```
-Place the file in the/bin or/usr/bin directory
+Place the file in the `/bin` or `/usr/bin` directory
 ```
 sudo mv gproxy.sh.x /bin/gproxy
 ```
