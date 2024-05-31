@@ -15,18 +15,12 @@ git clone https://github.com/xsxz01/gproxy.git
 ```
 cd gproxy
 ```
-编译代码
+执行安装脚本
 ```
-shc -r -f gproxy.sh
+chmod +x install.sh
+./install.sh
 ```
-将文件放到/bin或者/usr/bin目录下
-```
-sudo mv gproxy.sh.x /bin/gproxy
-```
-赋予执行权限
-```
-sudo chmod +x /bin/gproxy
-```
+
 ## 2. 启用系统代理
 ```
 gproxy start
